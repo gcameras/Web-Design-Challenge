@@ -1,28 +1,74 @@
-/* Giving our navbar some padding and a background color */
-.navbar {
-    padding: 0px;
-    background: white;
-  }
-  
-  /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line.*/
-  .navbar li {
-    display: inline-block;
-    padding: 20px;
-    margin-right: 10px;
-    margin-left: 10px;
-    cursor: pointer;
-  }
-  
-  /* Getting rid of the default link styles here */
-  .navbar li a {
-    color: gray;
-    text-decoration: none;
+
+ #lp-image {
+    width: 350px;
+    height: 350px;
+    margin-right: 20px;
+    float: left;
+    padding-top: 20px;
   }
 
-  .teal {
-      background: teal;
+  .lp-viz {
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+    padding-right: 5px;
+    align: margin-right
   }
 
-  body {
-      background: gainsboro ;
+  .comp-viz {
+    width: 400px;
+    height: 300px;
+    padding-top: 10px;
+    padding-left: 15px;
   }
+
+  #lp-paragraph {
+    padding-top: 60px;
+    font-size: x-large;
+  }
+
+  #latitude {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: x-large;
+    background-color: darkcyan;
+    color: white;
+    font-weight: bolder;
+    margin-left: 200px;
+  }
+
+  .font  {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: teal;
+    font-weight: bold;
+  }
+
+  body{
+    background-color: rgb(226, 224, 224);
+    }
+
+  .comp-page {
+    width: 1500px;
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-left: 50px;
+    background-color: white;
+  }  
+
+  .nav-right {
+    margin-left: 1150px
+  }
+
+  #v-image{
+    width: 700px;
+    height: 400px;
+    margin-left: 40px;
+    padding-top: 20px;
+  }
+
+  #v-paragraph {
+    padding-top: 30px;
+    font-size: large;

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Latitude vs. Cloudiness</title>
+
+    <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="box-positioning.css">
+</head>
+
+<body>
+    <!-- Bootstrap Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #dcf0fd;">
+        <a class="font" id="latitude" href="landingPage.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link nav-right" href="comparisons.html">Comparison <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="plotMaxTemp.html">Max Temperature</a>
+                <a class="dropdown-item" href="plotHumidity.html">Humidity</a>
+                <a class="dropdown-item" href="plotCloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="plotWindSpeed.html">Wind Speed</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    
+      <!--Landing page components-->
+      <div class="container">
+        <div class="row">
+        
+          <!--Cloudiness Summary-->
+          <div class="col-md-8" class="box">
+            <div>
+                <div class="summary">
+                <header>
+                    <h1 class="font">Cloudiness</h1>
+                    <hr class="my-4">
+                </header>
+                <img id="v-image"src="../Resources/assets/images/Fig3.png" alt="cloudiness">
+                <P id="v-paragraph">
+                    <ul>
+                        <li>The scatter plot above shows latitude vs. cloudiness % for Monday, 3/16/2020 across 563 cities in the world.</li>
+                        <li>There doesn't seem to be a strong relationship/correlation between the latitude and cloudiness %.</li>
+                        <li>The humidity varies quite a bit across all the cities regarless of latitude (seeing some data clusters).</li>
+                    </ul>
+                </P>
+                </div>
+            </div>
+        </div>
+
+          <!--Visualizations-->
+          <div class="col-md-4">
+            <div>
+              
+                <div class="box-set">
+                    <h2 class="font">Visualizations</h2>
+                    <hr class="my-4">
+                    <figure class="box box-1">
+                        <a href="plotMaxTemp.html"><img class="lp-viz" src="../Resources/assets/images/Fig1.png" alt="Fig1"></a>
+                    </figure>
+                    <figure class="box box-2">
+                        <a href="plotHumidity.html"><img class="lp-viz" src="../Resources/assets/images/Fig2.png" alt="Fig2"></a>
+                    </figure> 
+                    <figure class="box box-3">
+                        <a href="plotCloudiness.html"><img class="lp-viz"src="../Resources/assets/images/Fig3.png" alt="Fig2"></a>
+                    </figure> 
+                    <figure class="box box-4">
+                        <a href="plotWindSpeed.html"><img class="lp-viz" src="../Resources/assets/images/Fig4.png" alt="Fig4"></a>
+                    </figure> 
+                </div>
+
+            </div>
+         </div>
+         </div>
+        </div>
+
+
+    <!-- Bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      
+</body>
+</html>

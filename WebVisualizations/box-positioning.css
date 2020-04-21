@@ -1,0 +1,61 @@
+
+/* Absolute Box rules for landing page - Visualizations */
+.box-set {
+    position: relative;
+    height: 700px;
+    width: 550px;
+    background-color: white;
+    padding-top: 40px;
+    padding-left: 25px;
+    margin-top: 60px;
+  }
+
+  .box {
+    /* Absolute Position */
+    position: absolute;
+    width: 200px;
+    height: 200px;
+  }
+
+  .box-1 {
+    top: 20%;
+    left: 10%;
+  }
+
+  .box-2 {
+    top: 20%;
+    right: 10%;
+  }
+
+  .box-3 {
+    top: 55%;
+    left: 10%;
+  }
+
+  .box-4 {
+    top: 55%;
+    right: 10%;
+  }
+
+  /* Absolute Box rules for landing page - Summary */
+  .summary {
+    position: relative;
+    height: 700px;
+    width: 900px;
+    background-color: white;
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 60px;
+    margin-left: -200px;
+  }
+
+  .page {
+    position: relative;
+    height: fit-content;
+    width: 1500px;
+    background-color: white;
+    padding: 40px;
+    margin-top: 60px;
+    margin-left: 200px;
+  }
