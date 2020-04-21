@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Latitude vs. Humidity</title>
+    <title>Latitude Web Visualizations</title>
 
     <!-- Bring in our bootstrap stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -42,25 +42,25 @@
         </div>
       </nav>
     
-      <!--Page components-->
+      <!--Landing page components-->
       <div class="container">
         <div class="row">
         
-          <!--Humidity summary and plot-->
+          <!--Summary-->
           <div class="col-md-8" class="box">
             <div>
                 <div class="summary">
                 <header>
-                    <h1 class="font">Humidity</h1>
+                    <h1 class="font">Summary: Latitude vs. X</h1>
                     <hr class="my-4">
                 </header>
-                <img id="v-image"src="../Resources/assets/images/Fig2.png" alt="humidity">
-                <P id="v-paragraph">
-                    <ul>
-                        <li>The scatter plot above shows latitude vs. humidity for Monday, 3/16/2020 across 563 cities in the world.</li>
-                        <li>Based off the chart, there is no relationship/correlation between the latitude and humidity %.</li>
-                        <li>On this particular day, humidity trended high across a large percentage of the cities.</li>
-                    </ul>
+                <img id="lp-image"src="./Resources/assets/images/Fig1.png" alt="Fig1">
+                <P id="lp-paragraph">The purpose of this project was to analyze how weather changes as you get closer to the equator. 
+                    To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. 
+                    <br><br><br>
+                    After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
+                    Factors we looked at included: temerature, cloudiness, wind speed, and humidity.
+                    This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
                 </P>
                 </div>
             </div>
@@ -74,16 +74,16 @@
                     <h2 class="font">Visualizations</h2>
                     <hr class="my-4">
                     <figure class="box box-1">
-                        <a href="plotMaxTemp.html"><img class="lp-viz" src="../Resources/assets/images/Fig1.png" alt="Fig1"></a>
+                        <a href="plotMaxTemp.html"><img class="lp-viz" src="./Resources/assets/images/Fig1.png" alt="Fig1"></a>
                     </figure>
                     <figure class="box box-2">
-                        <a href="plotHumidity.html"><img class="lp-viz" src="../Resources/assets/images/Fig2.png" alt="Fig2"></a>
+                        <a href="plotHumidity.html"><img class="lp-viz" src="./Resources/assets/images/Fig2.png" alt="Fig2"></a>
                     </figure> 
                     <figure class="box box-3">
-                        <a href="plotCloudiness.html"><img class="lp-viz"src="../Resources/assets/images/Fig3.png" alt="Fig2"></a>
+                        <a href="plotCloudiness.html"><img class="lp-viz"src="./Resources/assets/images/Fig3.png" alt="Fig2"></a>
                     </figure> 
                     <figure class="box box-4">
-                        <a href="plotWindSpeed.html"><img class="lp-viz" src="../Resources/assets/images/Fig4.png" alt="Fig4"></a>
+                        <a href="plotWindSpeed.html"><img class="lp-viz" src="./Resources/assets/images/Fig4.png" alt="Fig4"></a>
                     </figure> 
                 </div>
 
